@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Wikipedia Viewer</title>
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="wikiviewer.css">
+</head>
+
+<div class="container-fluid">
+
+<body>
+    
+ <nav class= "navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+      <a class="navbar-brand">Wikipedia Viewer</a>
+    </div>
+     <ul class="nav navbar-nav navbar-right">
+      <li><a href="https://codepen.io/myk1005/" target="-blank"><span class="glyphicon glyphicon-user"></span> Michael Gallardo</a></li>
+    </ul>
+ </nav> 
+  
+  <button class="btn" id="random" title="Generate a random Wikipedia page"><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Find Something Random</a></button>
+  
+  <div class="block">
+    <input class="search-bar input-lg" placeholder="Search Wikipedia" id="searchFor">
+    <button class="btn btn-primary btn-small btn-success" type="submit" id="search">Go</button>
+  </div>
+  
+  <div class="block">
+    <h1>Search Results<br><br>
+    <span id="searchResults"></span>
+  </div>
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="wikiviewer.js"></script> 
+  
+</body>
+  
+<footer class="text-center footer">Michael Gallardo copyright 2017
+  <div class="text-center">
+  <a href="https://www.facebook.com/michael.gallardo.140" target="_blank"><i class="fa fa-facebook-square" style="font-size:30px; color:rgb(0, 115, 255);"></i></a>
+  <a href="https://www.linkedin.com/in/michael-gallardo-841b3685/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:30px; color:rgb(0, 75, 255)"></i></a>
+  <a href="https://github.com/mgallardo1005" target="_blank"><i class="fa fa-github" style="font-size:30px; color:white"></i></a>
+  </div>
+</footer>
+  
+</div>
